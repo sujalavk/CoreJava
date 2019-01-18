@@ -28,7 +28,7 @@ class Display extends JFrame
 			add(l5);
 			
 			setVisible(true);
-			setSize(900, 400);
+			setSize(200, 800);
 			
 			
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

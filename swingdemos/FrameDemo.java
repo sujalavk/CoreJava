@@ -3,6 +3,8 @@ import java.awt.FlowLayout;
 
 import javax.swing.*;
 
+import org.jdatepicker.JDatePicker;
+
 public class FrameDemo extends JFrame{
 	FrameDemo() {
 		JLabel  lblname=new JLabel("Name");
@@ -13,6 +15,7 @@ public class FrameDemo extends JFrame{
 		JRadioButton rdmale=new JRadioButton("Male");
 		JRadioButton rdfemale=new JRadioButton("FeMale");
 		ButtonGroup bg=new ButtonGroup();
+		
 		bg.add(rdmale);
 		bg.add(rdfemale);
 		JButton btnsubmit=new  JButton("Submit");
